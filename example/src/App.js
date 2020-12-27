@@ -1,10 +1,23 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-animated-typer'
-import 'react-animated-typer/dist/index.css'
+import Typer from 'react-animated-typer'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <Typer
+      heading='Hey there, '
+      dataText={[
+        'Hello...',
+        'Bonjour...',
+        'Hola...',
+        'Zdravstvuyte...',
+        'Nǐn hǎo...',
+        'Salve...',
+        'Konnichiwa...',
+        'Guten Tag...'
+      ]}
+    />
+  )
 }
 
 export default App

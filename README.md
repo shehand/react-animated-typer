@@ -15,16 +15,33 @@ npm install --save react-animated-typer
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-animated-typer'
-import 'react-animated-typer/dist/index.css'
+import Typer from 'react-animated-typer'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return (
+      <Typer
+        heading='Hey there, '
+        dataText={[
+          'Hello...',
+          'Bonjour...',
+          'Hola...',
+          'Zdravstvuyte...',
+          'Nǐn hǎo...',
+          'Salve...',
+          'Konnichiwa...',
+          'Guten Tag...'
+        ]}
+      />
+    )
   }
 }
 ```
 
+## Sample Output
+
+[](/docs/react-animated-typer.gif)
+
 ## License
 
-(MIT) © [shehand](https://github.com/shehand)
+(Apache License, Version 2.0) © [shehand](https://github.com/shehand)

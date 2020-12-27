@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A animated component to visualize the typing text in a react view component.",
   "author": "shehand",
-  "license": "(MIT)",
+  "license": "(Apache License, Version 2.0)",
   "repository": "shehand/react-animated-typer",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
