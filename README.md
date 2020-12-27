@@ -40,7 +40,7 @@ class Example extends Component {
 
 ## Sample Output
 
-[](/docs/react-animated-typer.gif)
+![](https://github.com/shehand/react-animated-typer/blob/main/docs/react-animated-typer.gif)
 
 ## License
 
